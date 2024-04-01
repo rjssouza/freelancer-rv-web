@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RecipeListComponent } from './recipe-list.component';
+import { GreenreceiptComponent } from './greenreceipt.component';
 
-describe('RecipeListComponent', () => {
-  let component: RecipeListComponent;
-  let fixture: ComponentFixture<RecipeListComponent>;
+describe('GreenreceiptComponent', () => {
+  let component: GreenreceiptComponent;
+  let fixture: ComponentFixture<GreenreceiptComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RecipeListComponent]
+      declarations: [GreenreceiptComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(RecipeListComponent);
+    fixture = TestBed.createComponent(GreenreceiptComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
